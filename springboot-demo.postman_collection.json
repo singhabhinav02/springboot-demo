@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "f9fa5146-de2a-4ab5-9f55-1197669cd6fd",
+		"name": "springboot-demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "say-hello",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5000/say?name=Abhi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"say"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Abhi"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "greet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5000/greet/Abhinav",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"greet",
+						"Abhinav"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hi-there",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5000/hi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"hi"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
